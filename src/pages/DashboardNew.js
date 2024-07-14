@@ -5,7 +5,6 @@ import { getProfiles } from '../services/profileService';
 import Loader from '../components/Loader';
 
 const Dashboard = () => {
-  const navigate = useNavigate();
   const [profiles, setProfiles] = useState([]);
   const [loading, setLoading] = useState(true);
   const locationChartRef = useRef(null);
